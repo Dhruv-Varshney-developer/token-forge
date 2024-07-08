@@ -3,8 +3,11 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract MyERC1155Token is ERC1155,Ownable  {
+    using Strings for uint256;
+
     uint256 public constant TOKEN_0 = 0;
     uint256 public constant TOKEN_1 = 1;
     uint256 public constant TOKEN_2 = 2;
@@ -38,4 +41,9 @@ contract MyERC1155Token is ERC1155,Ownable  {
         require(msg.sender == from || isApprovedForAll(from, msg.sender), "Caller is not owner nor approved");
         _burnBatch(from, ids, amounts);
     }
+
+    function uri(uint256 id) public view override returns (string memory) {
+    return string(abi.encodePacked(super.uri(id),id.toString()));
+}
+
 }
