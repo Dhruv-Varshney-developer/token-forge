@@ -61,8 +61,8 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
-			"runs": 1000
+			"enabled": false,
+			"runs": 200
 		},
 		"remappings": []
 	},
@@ -188,11 +188,11 @@
 			]
 		},
 		"module-3/forging.sol": {
-			"keccak256": "0x0d2257bc7bf12ad42abfdd23fd5df4d4c0f98b6d390d1d14b82a5dffac0871d4",
+			"keccak256": "0xb5c19a72be78a95bd41cc136e3f3610831bc242f2484a362a9838e2d748f4f69",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://87b7d8a5eb3dee6baf9616251d97ebe0b76b1362328e55b2b2e5b6c839d51952",
-				"dweb:/ipfs/QmSyoySyxfzDSEqvZaaV2v8XR5Btx2xyoZ8c9NdM7dACa7"
+				"bzz-raw://dfb5c3c1481617be94b4266c14af348d3fac61347397e005cceb41b48ec53cfc",
+				"dweb:/ipfs/QmbaFnJtFz4HtPZiiqp6xubW1vztuRQHX4cA6BTyCsCy1w"
 			]
 		}
 	},

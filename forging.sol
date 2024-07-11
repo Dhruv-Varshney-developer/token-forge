@@ -22,10 +22,48 @@ contract TokenForge {
     }
 
     function isValidForge(uint256[] memory burnIds, uint256 mintId) internal pure returns (bool) {
-        if (mintId == 3) return burnIds.length == 2 && burnIds[0] == 0 && burnIds[1] == 1;
-        if (mintId == 4) return burnIds.length == 2 && burnIds[0] == 1 && burnIds[1] == 2;
-        if (mintId == 5) return burnIds.length == 2 && burnIds[0] == 0 && burnIds[1] == 2;
-        if (mintId == 6) return burnIds.length == 3 && burnIds[0] == 0 && burnIds[1] == 1 && burnIds[2] == 2;
+        if (mintId == 3) {
+            uint256[] memory requiredIds = new uint256[](2);
+            requiredIds[0] = 0;
+            requiredIds[1] = 1;
+            return checkForge(burnIds, requiredIds);
+        }
+        if (mintId == 4) {
+            uint256[] memory requiredIds = new uint256[](2);
+            requiredIds[0] = 1;
+            requiredIds[1] = 2;
+            return checkForge(burnIds, requiredIds);
+        }
+        if (mintId == 5) {
+            uint256[] memory requiredIds = new uint256[](2);
+            requiredIds[0] = 0;
+            requiredIds[1] = 2;
+            return checkForge(burnIds, requiredIds);
+        }
+        if (mintId == 6) {
+            uint256[] memory requiredIds = new uint256[](3);
+            requiredIds[0] = 0;
+            requiredIds[1] = 1;
+            requiredIds[2] = 2;
+            return checkForge(burnIds, requiredIds);
+        }
         return false;
+    }
+
+    function checkForge(uint256[] memory burnIds, uint256[] memory requiredIds) internal pure returns (bool) {
+        if (burnIds.length != requiredIds.length) return false;
+        bool[] memory found = new bool[](requiredIds.length);
+        for (uint256 i = 0; i < burnIds.length; i++) {
+            for (uint256 j = 0; j < requiredIds.length; j++) {
+                if (burnIds[i] == requiredIds[j] && !found[j]) {
+                    found[j] = true;
+                    break;
+                }
+            }
+        }
+        for (uint256 i = 0; i < found.length; i++) {
+            if (!found[i]) return false;
+        }
+        return true;
     }
 }
