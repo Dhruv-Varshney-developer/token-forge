@@ -18,7 +18,7 @@ contract TokenForge {
             tokenContract.burn(msg.sender, burnIds[i], burnAmounts[i]);
         }
 
-        tokenContract.mint(mintId, 1);
+        tokenContract.forgeMint(msg.sender, mintId, 1);
     }
 
     function isValidForge(uint256[] memory burnIds, uint256 mintId) internal pure returns (bool) {
