@@ -437,29 +437,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "ids",
-						"type": "uint256[]"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "amounts",
-						"type": "uint256[]"
-					}
-				],
-				"name": "burnBatch",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
 						"name": "account",
 						"type": "address"
 					},
@@ -518,34 +495,6 @@
 					}
 				],
 				"name": "mint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "ids",
-						"type": "uint256[]"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "amounts",
-						"type": "uint256[]"
-					},
-					{
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
-					}
-				],
-				"name": "mintBatch",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -845,8 +794,8 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
-			"runs": 1000
+			"enabled": false,
+			"runs": 200
 		},
 		"remappings": []
 	},
@@ -964,11 +913,11 @@
 			]
 		},
 		"module-3/ERC1155token.sol": {
-			"keccak256": "0xe6445aa5346e404c664a6566b8a153e0ccfed178eacd7503c7cd36ec96f447de",
+			"keccak256": "0x74514be8ccd2e13c2f62d4e0679673c74b9b7e1f05acefde806dd83634a6d3b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://45c208b30fa5bf5ebdde5c01900e5fb88edcc59754060f5e015dab545c666d80",
-				"dweb:/ipfs/QmcmAuBeNe1tJML9oGusQCCLEqDndBUtUEEptA4pWJqf2z"
+				"bzz-raw://359c470c93f43c12e1dc4704ce14ee308abe3941b8508b0d7a5fe664f36a3d64",
+				"dweb:/ipfs/QmeqxhwBvQPdisnavmiYgNW8EUjNeffuV6BqbADMggFX9N"
 			]
 		}
 	},
