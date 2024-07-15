@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 import "hardhat/console.sol";
-import "./ERC1155Token.sol";
+import "module-3/ERC1155token.sol";
 
 contract TokenForge {
     MyERC1155Token private tokenContract;
