@@ -7,6 +7,7 @@ import NetworkChecker from './components/network';
 import TokenDisplay from './components/balance';
 import MintingInterface from './components/minting';
 import ForgingInterface from './components/forging';
+import { Web3Provider } from './utils/web3provider';
 
 
 
@@ -121,6 +122,8 @@ export default function App() {
 
 
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+          <Web3Provider>
+
           <Header />
           {/*<NetworkChecker />
           
@@ -131,6 +134,8 @@ export default function App() {
           <div className="mt-10">
             <ForgingInterface forge={forge} />
           </div> */}
+              </Web3Provider>
+
         </div>
       
     );
