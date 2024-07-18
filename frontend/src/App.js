@@ -47,7 +47,7 @@ const ethersConfig = defaultConfig({
   enableCoinbase: true,
 
   defaultChainId: 11155111
-})
+});
 
 // 5. Create a Web3Modal instance
 createWeb3Modal({
@@ -55,10 +55,11 @@ createWeb3Modal({
   chains: [testnet],
   projectId,
   enableAnalytics: true // Optional - defaults to your Cloud configuration
-})*/
+});
+*/
 
 export default function App() {
-  const [setProvider] = useState(null);
+ /* const [setProvider] = useState(null);
   const [setSigner] = useState(null);
   const [account, setAccount] = useState(null);
   const [erc1155Contract, setERC1155Contract] = useState(null);
@@ -67,7 +68,7 @@ export default function App() {
 
   useEffect(() => {
     const init = async () => {
-      const web3Modal = new web3Modal();
+      const web3Modal = new createWeb3Modal();
       const connection = await web3Modal.connect();
       const provider = new ethers.providers.Web3Provider(connection);
       const signer = provider.getSigner();
@@ -115,24 +116,22 @@ export default function App() {
       console.error("Error forging:", error);
     }
   };
-
+*/
   return (
 
-    <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-      <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
           <Header />
-          <NetworkChecker />
+          {/*<NetworkChecker />
+          
           <TokenDisplay balances={balances} />
           <div className="mt-10">
             <MintingInterface mint={mint} />
           </div>
           <div className="mt-10">
             <ForgingInterface forge={forge} />
-          </div>
+          </div> */}
         </div>
-      </div>
-    </div>
+      
     );
 }

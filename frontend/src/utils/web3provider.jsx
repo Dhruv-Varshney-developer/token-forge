@@ -10,8 +10,7 @@ const config = createConfig(
         transports: {
           // RPC URL for each chain
           [sepolia.id]: http(
-            `              https://rpc.sepolia.org
-            `,
+            `https://rpc.sepolia.org`,
           ),
         },
       walletConnectProjectId: '6b2bb4d988d866f9449aa510de577844',
