@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
-import { connectWallet, getProvider, switchNetwork } from './metamask';
+import { connectWallet, getProvider, switchNetwork } from './walletconnect';
 import { getTokenContract, getForgeContract } from './contracts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
