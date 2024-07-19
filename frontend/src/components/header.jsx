@@ -2,9 +2,7 @@ import React from 'react';
 import { useAccount, useBalance } from "wagmi";
 
 import { ConnectKitButton } from "connectkit";
-import { Web3Provider } from "/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/frontend/src/utils/web3provider.jsx";
-import { getBalance } from 'viem/actions';
-import { formatEther } from 'viem';
+
 
 
 
@@ -25,9 +23,10 @@ export default function Header() {
       </div>
         <div >
           {address && (
-            <div>
-              Balance: {balanceLoading ? "Loading..." : balance.formatted + " ETH"}
-            </div>
+            <div className="balance-display">
+            <span>Balance:</span>
+            {balanceLoading ? "Loading..." : balance.formatted + " ETH"}
+          </div>
           )}
         </div>
         
@@ -35,3 +34,4 @@ export default function Header() {
     </nav>
   );
 }
+
