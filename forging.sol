@@ -5,9 +5,10 @@ import "module-3/ERC1155token.sol";
 
 contract TokenForge {
     MyERC1155Token private tokenContract;
+    address private constant ERC1155_ADDRESS = 0xc01E9EfA9E40B64908dAE732063e841cD6101C9A;
 
-    constructor(MyERC1155Token _tokenContract) {
-        tokenContract = _tokenContract;
+    constructor() {
+        tokenContract = MyERC1155Token(ERC1155_ADDRESS);
     }
 
     function forgeToken(uint256[] memory burnIds, uint256[] memory burnAmounts, uint256 mintId) public {
