@@ -125,11 +125,12 @@ export default function App() {
           <Web3Provider>
 
           <Header />
+          <MintingInterface  />
+
           {/*<NetworkChecker />
           
           <TokenDisplay balances={balances} />
           <div className="mt-10">
-            <MintingInterface mint={mint} />
           </div>
           <div className="mt-10">
             <ForgingInterface forge={forge} />
