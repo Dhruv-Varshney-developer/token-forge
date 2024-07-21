@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
-import { useReadContract } from 'wagmi';
-import { useWriteContract } from 'wagmi';
-import { useAccount, useContractRead, useContractWrite } from 'wagmi';
-
-const ERC1155_ADDRESS = '0xc01E9EfA9E40B64908dAE732063e841cD6101C9A';
-const ERC1155_ABI = [
-  "function balanceOf(address account, uint256 id) view returns (uint256)",
-  "function mint(uint256 id, uint256 amount)",
-];
+import { useAccount, useReadContract, useWriteContract } from 'wagmi';
+import { ERC1155Token_ABI, ERC1155_ADDRESS } from '../constants/ERC1155';
+import { writeContract } from 'viem/actions';
 
 const MintingInterface = () => {
   const { address } = useAccount();
@@ -15,33 +9,53 @@ const MintingInterface = () => {
   const [amount, setAmount] = useState('');
   const [balance, setBalance] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
 
-  // Use the useContractRead hook to fetch the balance
+  // Use the useReadContract hook to fetch the balance
   const { data: balanceData, isLoading: isBalanceLoading } = useReadContract({
     address: ERC1155_ADDRESS,
-    abi: ERC1155_ABI,
+    abi: ERC1155Token_ABI,
     functionName: 'balanceOf',
-    args: [address,  Number(tokenId) ],
+    args: [address, Number(tokenId)],
     watch: true,
   });
 
   // Use the useContractWrite hook to mint tokens
-  const { write: mintToken, isLoading: isMinting } = useWriteContract({
-    address: ERC1155_ADDRESS,
-    abi: ERC1155_ABI,
-    functionName: 'mint',
-  });
+  const { data: hash,
+    writeContract ,isLoading: isMinting } = useWriteContract();
 
   const handleMint = async () => {
     if (tokenId === '' || amount === '') return;
+
+    // Check if the token ID is valid for public minting
+    const id = Number(tokenId);
+    if (id < 0 || id > 2) {
+      setErrorMessage("Invalid token ID for public minting");
+      return;
+    }
+
     setIsLoading(true);
     try {
-      const result = await mintToken({ args: [Number(tokenId), Number(amount)] });
-      await result.wait(); // Wait for the transaction to be confirmed
-      console.log('Mint result:', result);
-      // Optionally reset the form or show a success message
+      writeContract({
+        address: ERC1155_ADDRESS,
+        abi: ERC1155Token_ABI,
+        functionName: 'mint',
+        args: [Number(tokenId), Number(amount)],
+        onError: (error) => {
+          // Capture any error from the minting process
+          setErrorMessage(error.message);
+        },
+        onSuccess: (result) => {
+          // Reset messages and show success message
+          setErrorMessage('');
+          setSuccessMessage('Minting successful!');
+          console.log('Mint result:', result);
+        },
+      }) // Wait for the transaction to be confirmed
     } catch (error) {
       console.error('Minting failed:', error);
+      // Error message is already set in onError callback
     } finally {
       setIsLoading(false);
     }
@@ -68,13 +82,13 @@ const MintingInterface = () => {
           />
         </div>
         <button
-            onClick={handleCheckBalance}
-            disabled={isLoading}
-            className="flex-1 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            {isBalanceLoading ? 'Checking...' : 'Check Balance'}
-          </button>
-          {balance !== null && (
+          onClick={handleCheckBalance}
+          disabled={isBalanceLoading}
+          className="flex-1 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          {isBalanceLoading ? 'Checking...' : 'Check Balance'}
+        </button>
+        {balance !== null && (
           <div className="text-center font-semibold">
             Balance: {balance ? balance.toString() : '0'}
           </div>
@@ -100,9 +114,14 @@ const MintingInterface = () => {
           >
             {isLoading || isMinting ? 'Minting...' : 'Mint Token'}
           </button>
-          
         </div>
-        
+        {/* Display error and success messages below the mint button */}
+        {errorMessage && (
+          <div className="mt-4 text-red-600 text-center">{errorMessage}</div>
+        )}
+        {successMessage && (
+          <div className="mt-4 text-green-600 text-center">{successMessage}</div>
+        )}
       </div>
     </div>
   );
