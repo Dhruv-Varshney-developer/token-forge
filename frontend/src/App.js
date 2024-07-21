@@ -3,7 +3,6 @@ import { ethers } from 'ethers';
 
 import { ERC1155_ADDRESS, ERC1155_ABI, FORGING_ADDRESS, FORGING_ABI } from './utils/contracts';
 import Header from './components/header';
-import NetworkChecker from './components/network';
 import TokenDisplay from './components/balance';
 import MintingInterface from './components/minting';
 import ForgingInterface from './components/forging';
@@ -16,48 +15,6 @@ import { Web3Provider } from './utils/web3provider';
 
 
 
-/*import { createWeb3Modal, defaultConfig } from '@web3modal/ethers5/react';
-
-// 1. Get projectId
-const projectId = '6b2bb4d988d866f9449aa510de577844'
-
-// 2. Set chains
-const testnet = {
-  chainId: 11155111,
-  name: 'Sepolia Testnet',
-  currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
-  rpcUrl: 'https://rpc.sepolia.org'
-}
-
-// 3. Create a metadata object
-const metadata = {
-  name: 'Mint & Forge',
-  description: 'Mint and forge ERC1155 tokens on the Sepolia Testnet',
-}
-
-// 4. Create Ethers config
-const ethersConfig = defaultConfig({
-  
-  metadata,
-
-  
-  enableEIP6963: true, // true by default
-  enableInjected: true, // true by default
-  
-  enableCoinbase: true,
-
-  defaultChainId: 11155111
-});
-
-// 5. Create a Web3Modal instance
-createWeb3Modal({
-  ethersConfig,
-  chains: [testnet],
-  projectId,
-  enableAnalytics: true // Optional - defaults to your Cloud configuration
-});
-*/
 
 export default function App() {
  /* const [setProvider] = useState(null);
@@ -120,12 +77,12 @@ export default function App() {
 */
   return (
 
+    <Web3Provider>
 
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-          <Web3Provider>
+          
 
           <Header />
-          <MintingInterface  />
 
           {/*<NetworkChecker />
           
@@ -135,9 +92,14 @@ export default function App() {
           <div className="mt-10">
             <ForgingInterface forge={forge} />
           </div> */}
-              </Web3Provider>
 
         </div>
-      
+        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+
+        <MintingInterface  />
+        </div>
+
+        </Web3Provider>
+
     );
 }
