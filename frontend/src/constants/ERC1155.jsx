@@ -1,5 +1,5 @@
 
-export const ERC1155_ADDRESS = '0xc01E9EfA9E40B64908dAE732063e841cD6101C9A';
+export const ERC1155_ADDRESS = '0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3';
 
 
 
@@ -115,5 +115,16 @@ export const ERC1155Token_ABI = [
       outputs: [
         { type: 'bool' }
       ]
-    }
+    },
+    {
+      type: 'function',
+      name: 'tradeToken',
+      stateMutability: 'nonpayable',
+      inputs: [
+        { name: 'giveTokenId', type: 'uint256' },
+        { name: 'giveAmount', type: 'uint256' },
+        { name: 'receiveTokenId', type: 'uint256' }
+      ],
+      outputs: []
+    },
   ];
