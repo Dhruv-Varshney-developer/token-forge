@@ -1,9 +1,6 @@
-import { useState, useEffect } from 'react';
-import { ethers } from 'ethers';
 
-import { ERC1155_ADDRESS, ERC1155_ABI, FORGING_ADDRESS, FORGING_ABI } from './utils/contracts';
+
 import Header from './components/header';
-import TokenDisplay from './components/balance';
 import MintingInterface from './components/minting';
 import ForgingInterface from './components/forging';
 import { Web3Provider } from './utils/web3provider';
@@ -98,7 +95,10 @@ export default function App() {
 
         <MintingInterface  />
         </div>
+        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
 
+<ForgingInterface  />
+</div>
         </Web3Provider>
 
     );
