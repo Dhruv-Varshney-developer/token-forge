@@ -17,7 +17,7 @@ const ForgingInterface = () => {
   // Function to handle forging
   const handleForge = async () => {
     // Filter out empty burn IDs and corresponding amounts
-    const burnIdsNumbers = burnIds.map(Number).filter(id => id !== 0);
+    const burnIdsNumbers = burnIds.filter(id => id !== "");
     const burnAmountsNumbers = burnAmounts.map(Number).filter((amount, index) => burnIds[index] !== '');
 
     if (burnIdsNumbers.length === 0 || mintId === '') return;
@@ -29,6 +29,7 @@ const ForgingInterface = () => {
         abi: forgingABI,
         functionName: 'forgeToken',
         args: [burnIdsNumbers, burnAmountsNumbers, Number(mintId)],
+        account: address,
         onError: (error) => {
           setErrorMessage(error.message);
         },
@@ -77,7 +78,7 @@ const ForgingInterface = () => {
               placeholder="Enter Burn Token ID 3 (optional)"
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
-            <p className="text-sm text-gray-500">Please leave these empty if unused.</p>
+            
           </div>
         </div>
         <div>
@@ -140,7 +141,7 @@ const ForgingInterface = () => {
         )}
       </div>
       <div className="mt-4 text-center">
-        <a href="https://testnets.opensea.io/assets/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">
+        <a href="https://testnets.opensea.io/assets/sepolia/0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">
           View on OpenSea
         </a>
       </div>
