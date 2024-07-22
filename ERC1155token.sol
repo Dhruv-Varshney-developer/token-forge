@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
-import "hardhat/console.sol";
 
 contract MyERC1155Token is ERC1155, Ownable {
     using Strings for uint256;
@@ -46,4 +45,15 @@ contract MyERC1155Token is ERC1155, Ownable {
     function uri(uint256 id) public pure override returns (string memory) {
         return string(abi.encodePacked("ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/", id.toString()));
     }
+
+        function tradeToken(uint256 giveTokenId, uint256 giveAmount, uint256 receiveTokenId) public {
+        require(giveTokenId != receiveTokenId, "Cannot trade for the same token type");
+        require(receiveTokenId >= TOKEN_0 && receiveTokenId <= TOKEN_2, "Can only trade for token IDs 0-2");
+        require(balanceOf(msg.sender, giveTokenId) >= giveAmount, "Insufficient balance of token to give");
+
+        // Perform the trade
+        _burn(msg.sender, giveTokenId, giveAmount);
+        _mint(msg.sender, receiveTokenId, giveAmount, "");
+    }
 }
+// gas optimisation-100000
