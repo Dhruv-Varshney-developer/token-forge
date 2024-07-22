@@ -122,6 +122,11 @@ const MintingInterface = () => {
           <div className="mt-4 text-green-600 text-center">{successMessage}</div>
         )}
       </div>
+      <div className="mt-4 text-center">
+        <a href="https://testnets.opensea.io/assets/sepolia/0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">
+          View on OpenSea
+        </a>
+      </div>
     </div>
   );
 };
