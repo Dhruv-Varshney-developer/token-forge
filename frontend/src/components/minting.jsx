@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useAccount, useReadContract, useWriteContract } from 'wagmi';
 import { ERC1155Token_ABI, ERC1155_ADDRESS } from '../constants/ERC1155';
-import { writeContract } from 'viem/actions';
 
 const MintingInterface = () => {
   const { address } = useAccount();
