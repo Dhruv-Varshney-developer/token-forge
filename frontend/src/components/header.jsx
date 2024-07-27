@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
 import { useAccount, useBalance } from "wagmi";
 
 import { ConnectKitButton } from "connectkit";
-
-
-
 
 export default function Header() {
   const { address, isConnecting, isDisconnected } = useAccount();
@@ -16,22 +13,18 @@ export default function Header() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-      <div >
-          
+        <div>
           <ConnectKitButton />
-        
-      </div>
-        <div >
+        </div>
+        <div>
           {address && (
             <div className="balance-display">
-            <span>Balance:</span>
-            {balanceLoading ? "Loading..." : balance.formatted + " ETH"}
-          </div>
+              <span>Balance:</span>
+              {balanceLoading ? "Loading..." : balance.formatted + " ETH"}
+            </div>
           )}
         </div>
-        
       </div>
     </nav>
   );
 }
-
