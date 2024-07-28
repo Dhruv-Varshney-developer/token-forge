@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-import "module-3/ERC1155token.sol";
+import "./ERC1155token.sol";
 
 contract TokenForge {
-    MyERC1155Token private tokenContract;
+    MyERC1155Token private immutable tokenContract;
     address private constant ERC1155_ADDRESS =
         0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3;
 
@@ -11,6 +11,7 @@ contract TokenForge {
         tokenContract = MyERC1155Token(ERC1155_ADDRESS);
     }
 
+    // Note: burn batch has not been used because of gas savings.
     function forgeToken(
         uint256[] memory burnIds,
         uint256[] memory burnAmounts,

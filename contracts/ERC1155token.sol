@@ -25,6 +25,8 @@ contract MyERC1155Token is ERC1155, Ownable {
         Ownable(msg.sender)
     {}
 
+    // Note: Using block.timestamp has risks due to potential miner manipulation.
+    // It is used here to keep the code simple and focused on the main concepts.
     function mint(uint256 id, uint256 amount) public {
         require(
             id >= TOKEN_0 && id <= TOKEN_2,
@@ -68,6 +70,8 @@ contract MyERC1155Token is ERC1155, Ownable {
                 )
             );
     }
+
+    // Note: reentrancy issue has been ignored becuase tokens 0-2 are free minted anyways.
 
     function tradeToken(
         uint256 giveTokenId,
