@@ -4,11 +4,15 @@ import "./ERC1155token.sol";
 
 contract TokenForge {
     MyERC1155Token private immutable tokenContract;
-    address private constant ERC1155_ADDRESS =
+
+    /*address private constant ERC1155_ADDRESS =
         0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3;
 
     constructor() {
         tokenContract = MyERC1155Token(ERC1155_ADDRESS);
+    } */
+    constructor(address _tokenAddress) {
+        tokenContract = MyERC1155Token(_tokenAddress);
     }
 
     // Note: burn batch has not been used because of gas savings.
@@ -41,10 +45,11 @@ contract TokenForge {
         tokenContract.forgeMint(msg.sender, mintId, burnAmount);
     }
 
+    // Changed to public for testing
     function isValidForge(
         uint256[] memory burnIds,
         uint256 mintId
-    ) internal pure returns (bool) {
+    ) public pure returns (bool) {
         if (mintId == 3) {
             uint256[] memory requiredIds = new uint256[](2);
             requiredIds[0] = 0;
@@ -73,10 +78,11 @@ contract TokenForge {
         return false;
     }
 
+    // Changed to public for testing
     function checkForge(
         uint256[] memory burnIds,
         uint256[] memory requiredIds
-    ) internal pure returns (bool) {
+    ) public pure returns (bool) {
         if (burnIds.length != requiredIds.length) return false;
         bool[] memory found = new bool[](requiredIds.length);
         for (uint256 i = 0; i < burnIds.length; i++) {
