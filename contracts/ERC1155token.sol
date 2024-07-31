@@ -48,7 +48,7 @@ contract MyERC1155Token is ERC1155, Ownable {
         );
         require(
             id >= TOKEN_3 && id <= TOKEN_6,
-            "Using forgeMint, you can only mint IDs 3-6. "
+            "Using forgeMint, you can only mint IDs 3-6."
         );
         _mint(to, id, amount, "");
     }

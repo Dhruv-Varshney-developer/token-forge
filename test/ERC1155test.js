@@ -97,10 +97,10 @@ describe("MyERC1155Token", function () {
     it("Should not allow forge minting of tokens 0-2", async function () {
       await expect(
         myToken.connect(owner).forgeMint(addr1.address, 0, 1),
-      ).to.be.revertedWith("Using forgeMint, you can only mint IDs 3-6. ");
+      ).to.be.revertedWith("Using forgeMint, you can only mint IDs 3-6.");
       await expect(
         myToken.connect(owner).forgeMint(addr1.address, 2, 1),
-      ).to.be.revertedWith("Using forgeMint, you can only mint IDs 3-6. ");
+      ).to.be.revertedWith("Using forgeMint, you can only mint IDs 3-6.");
     });
 
     it("Should allow approved address to forge mint", async function () {
