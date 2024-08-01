@@ -11,6 +11,7 @@
     "format": "prettier --write --plugin=prettier-plugin-solidity '**/*.sol' 'frontend/**/**/*.jsx' 'frontend/**/*.js' 'frontend/**/*.css'"
   },
   "dependencies": {
+    "@morenabarboni/sumo": "^2.5.4",
     "@openzeppelin/contracts": "^5.0.2"
   }
 }

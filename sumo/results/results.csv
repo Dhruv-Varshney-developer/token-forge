@@ -1,0 +1,347 @@
+Hash,File,Operator,Start,End,StartLine,EndLine,Original,Replacement,Status,Time(ms)
+m9158b0f3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1090,1094,32,32," && "," || ",killed,9659
+mfe126ad2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1079,1083,32,32," >= ","  > ",killed,8799
+mee2acf74,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1079,1083,32,32," >= ","  < ",killed,11428
+md74e4b9f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1079,1083,32,32," >= "," <= ",killed,10683
+maf0794e2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1079,1083,32,32," >= "," != ",killed,14290
+m18a9d5c4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1079,1083,32,32," >= "," == ",killed,11571
+m3d7d811a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1096,1100,32,32," <= ","  < ",killed,10354
+m76f4ec46,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1096,1100,32,32," <= ","  > ",killed,11197
+m9216a2c3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1096,1100,32,32," <= "," >= ",killed,9030
+m2dcf2153,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1096,1100,32,32," <= "," != ",killed,10155
+me8f7d9b5,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1096,1100,32,32," <= "," == ",killed,11700
+mba24590b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1225,1229,36,36," >= ","  > ",live,12025
+m0f6571cd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1225,1229,36,36," >= ","  < ",killed,9028
+mdb397f8f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1225,1229,36,36," >= "," <= ",killed,7972
+m8025e9da,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1225,1229,36,36," >= "," != ",killed,8490
+m3a0487c9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1225,1229,36,36," >= "," == ",killed,7956
+me30fa70a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1257,1260,36,36," + "," - ",killed,8077
+m9de739d6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1257,1260,36,36," + "," * ",killed,8985
+mb2c8ba2a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1257,1260,36,36," + "," / ",killed,8055
+m79d9c827,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1257,1260,36,36," + "," ** ",killed,8388
+m9dc6276d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1257,1260,36,36," + "," % ",killed,10144
+m3570e8ab,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1577,1581,46,46," || "," && ",killed,9254
+mfcddef20,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1563,1567,46,46," == "," <= ",live,10487
+mdc198976,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1563,1567,46,46," == "," >= ",killed,9931
+mb13f8d78,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1563,1567,46,46," == ","  < ",killed,10906
+m9460b4c6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1563,1567,46,46," == ","  > ",killed,9152
+m8eba00f5,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1563,1567,46,46," == "," != ",killed,9495
+ma249c4a8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1725,1729,50,50," && "," || ",killed,9423
+mfb8b973e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1714,1718,50,50," >= ","  > ",killed,11104
+m1185f881,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1714,1718,50,50," >= ","  < ",killed,13855
+m025db7b1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1714,1718,50,50," >= "," <= ",killed,10830
+m8b0a48f6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1714,1718,50,50," >= "," != ",killed,10598
+mef8197e7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1714,1718,50,50," >= "," == ",live,20371
+maab19ab7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1731,1735,50,50," <= ","  < ",killed,13804
+m2d9ac85a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1731,1735,50,50," <= ","  > ",live,24604
+mdabb1efd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1731,1735,50,50," <= "," >= ",live,17918
+m7b7b3cc4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1731,1735,50,50," <= "," != ",killed,10961
+m8fae1b43,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1731,1735,50,50," <= "," == ",killed,11280
+md3347f0d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1971,1975,58,58," || "," && ",live,19598
+m35dabd7d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1963,1967,58,58," == "," <= ",killed,12362
+m8c28e8ab,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1963,1967,58,58," == "," >= ",live,14698
+m342fdda7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1963,1967,58,58," == ","  < ",killed,10254
+mbb475889,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1963,1967,58,58," == ","  > ",killed,12216
+mb34f5c95,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,1963,1967,58,58," == "," != ",killed,11135
+m37b00f35,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2680,2684,82,82," != "," >  ",killed,9415
+m2d58d25c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2680,2684,82,82," != ","  < ",live,13087
+m152061c3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2680,2684,82,82," != "," <= ",killed,8316
+mc63cf0e9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2680,2684,82,82," != "," >= ",killed,8051
+mb091c831,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2680,2684,82,82," != "," == ",killed,9050
+mb0dcf151,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2816,2820,86,86," && "," || ",killed,9074
+mc39d5fe3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2805,2809,86,86," >= ","  > ",live,13189
+m1c2780aa,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2805,2809,86,86," >= ","  < ",killed,8982
+m817065be,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2805,2809,86,86," >= "," <= ",killed,10348
+m33b6b8c8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2805,2809,86,86," >= "," != ",live,10492
+m8a5197a1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2805,2809,86,86," >= "," == ",killed,8287
+m604a530e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2834,2838,86,86," <= ","  < ",killed,9634
+m1e29656d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2834,2838,86,86," <= ","  > ",killed,8966
+mbb1ffc29,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2834,2838,86,86," <= "," >= ",killed,8549
+m3d2ad106,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2834,2838,86,86," <= "," != ",killed,8387
+m23ad9442,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2834,2838,86,86," <= "," == ",killed,8314
+meeb9bf13,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2968,2972,90,90," >= ","  > ",killed,12494
+meccd6c91,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2968,2972,90,90," >= ","  < ",killed,11005
+m47d2080e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2968,2972,90,90," >= "," <= ",killed,9385
+m001f167a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2968,2972,90,90," >= "," != ",killed,8892
+mbb8d1163,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,BOR,2968,2972,90,90," >= "," == ",killed,11978
+m4887e6d4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,CCD,667,828,21,26,"constructor()        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )        Ownable(msg.sender)    {}",,stillborn,4895
+m97c3bc7e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,DLR,2169,2182,64,64,string memory,string storage,stillborn,4299
+m2856806f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,1056,1180,31,34,"require(            id >= TOKEN_0 && id <= TOKEN_2,            ""Free minting is allowed only for token IDs 0-2""        );","/* require(            id >= TOKEN_0 && id <= TOKEN_2,            ""Free minting is allowed only for token IDs 0-2""        ); */",killed,8997
+m07f5eda6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,1189,1347,35,38,"require(            block.timestamp >= lastMintTime[msg.sender][id] + 1 minutes,            ""There is a cooldown of 1 minute between free mints.""        );","/* require(            block.timestamp >= lastMintTime[msg.sender][id] + 1 minutes,            ""There is a cooldown of 1 minute between free mints.""        ); */",killed,10417
+m08d550e3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,1535,1682,45,48,"require(            owner() == msg.sender || isApprovedForAll(owner(), msg.sender),            ""Caller is not the owner nor approved.""        );","/* require(            owner() == msg.sender || isApprovedForAll(owner(), msg.sender),            ""Caller is not the owner nor approved.""        ); */",killed,8893
+m8908c6ab,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,1691,1812,49,52,"require(            id >= TOKEN_3 && id <= TOKEN_6,            ""Using forgeMint, you can only mint IDs 3-6.""        );","/* require(            id >= TOKEN_3 && id <= TOKEN_6,            ""Using forgeMint, you can only mint IDs 3-6.""        ); */",killed,8640
+mec368d33,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,1932,2069,57,60,"require(            msg.sender == from || isApprovedForAll(from, msg.sender),            ""Caller is not owner nor approved.""        );","/* require(            msg.sender == from || isApprovedForAll(from, msg.sender),            ""Caller is not owner nor approved.""        ); */",killed,9036
+mba1de61e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,2648,2761,81,84,"require(            giveTokenId != receiveTokenId,            ""Cannot trade for the same token type""        );","/* require(            giveTokenId != receiveTokenId,            ""Cannot trade for the same token type""        ); */",killed,10097
+me817c09a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,2770,2904,85,88,"require(            receiveTokenId >= TOKEN_0 && receiveTokenId <= TOKEN_2,            ""Can only trade for token IDs 0-2""        );","/* require(            receiveTokenId >= TOKEN_0 && receiveTokenId <= TOKEN_2,            ""Can only trade for token IDs 0-2""        ); */",killed,12812
+m176c788e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,EHC,2913,3046,89,92,"require(            balanceOf(msg.sender, giveTokenId) >= giveAmount,            ""Insufficient balance of token to give""        );","/* require(            balanceOf(msg.sender, giveTokenId) >= giveAmount,            ""Insufficient balance of token to give""        ); */",killed,17668
+m97a339a3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,997,1046,30,30,"function mint(uint256 id, uint256 amount) public ","function mint(uint256 id, uint256 amount) external ",live,17860
+mda6a48b6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,997,1046,30,30,"function mint(uint256 id, uint256 amount) public ","function mint(uint256 id, uint256 amount) internal ",killed,11172
+mfcdb76ad,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,997,1046,30,30,"function mint(uint256 id, uint256 amount) public ","function mint(uint256 id, uint256 amount) private ",killed,8478
+m15f39e82,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1459,1525,44,44,"function forgeMint(address to, uint256 id, uint256 amount) public ","function forgeMint(address to, uint256 id, uint256 amount) external ",live,9778
+mae03c7cd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1459,1525,44,44,"function forgeMint(address to, uint256 id, uint256 amount) public ","function forgeMint(address to, uint256 id, uint256 amount) internal ",stillborn,3247
+mdb7608c1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1459,1525,44,44,"function forgeMint(address to, uint256 id, uint256 amount) public ","function forgeMint(address to, uint256 id, uint256 amount) private ",stillborn,2862
+m5205eee0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1859,1922,56,56,"function burn(address from, uint256 id, uint256 amount) public ","function burn(address from, uint256 id, uint256 amount) external ",live,15070
+mdba9c68f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1859,1922,56,56,"function burn(address from, uint256 id, uint256 amount) public ","function burn(address from, uint256 id, uint256 amount) internal ",stillborn,9896
+mf5b2afd2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,1859,1922,56,56,"function burn(address from, uint256 id, uint256 amount) public ","function burn(address from, uint256 id, uint256 amount) private ",stillborn,7574
+ma24aa9d4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,2516,2638,76,80,"function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) public ","function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) external ",live,32854
+m481c0676,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,2516,2638,76,80,"function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) public ","function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) internal ",killed,16926
+m1aba3108,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,FVR,2516,2638,76,80,"function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) public ","function tradeToken(        uint256 giveTokenId,        uint256 giveAmount,        uint256 receiveTokenId    ) private ",killed,14316
+m85a62b71,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,block.number,killed,11233
+m3686840a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,block.difficulty,killed,10090
+m9956dcd9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,block.gaslimit,killed,14343
+m2b2528d2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,tx.gasprice,killed,12582
+m9852354a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,gasleft(),killed,13437
+ma7846162,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1210,1225,36,36,block.timestamp,msg.value,stillborn,5754
+m2711351e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,block.number,killed,12904
+m6b5db429,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,block.difficulty,killed,9687
+mc26a3d4c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,block.gaslimit,killed,10754
+m05a400c9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,tx.gasprice,killed,12882
+m06bbe4bc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,gasleft(),killed,12926
+m79c9aa62,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,GVR,1388,1403,40,40,block.timestamp,msg.value,stillborn,4986
+mb398b615,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,339,340,11,11,0,1,killed,11883
+m6387e0c7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,380,381,12,12,1,0,live,14375
+m4a9d61e8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,380,381,12,12,1,2,live,13409
+mb72c76de,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,421,422,13,13,2,1,killed,12285
+m5c997f97,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,421,422,13,13,2,3,killed,11600
+ma003d2b8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,462,463,14,14,3,2,killed,9596
+m6b35bdd4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,462,463,14,14,3,4,killed,9031
+m56336b91,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,503,504,15,15,4,3,live,10048
+madb1f24e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,503,504,15,15,4,5,live,10112
+m73e182c8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,544,545,16,16,5,4,live,11057
+me57b29e8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,544,545,16,16,5,6,live,10252
+md77264e8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,585,586,17,17,6,5,killed,14217
+m1e33cbe0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,585,586,17,17,6,7,live,15926
+m0d8fbc6d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,1260,1269,36,36,1 minutes,0 minutes,killed,9755
+m9d9b1df2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ILR,1260,1269,36,36,1 minutes,2 minutes,killed,14462
+m08044263,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,MOC,667,826,21,26,"constructor()        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )        Ownable(msg.sender)    ","constructor()        Ownable(msg.sender)        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )    ",live,16953
+mfc3d4318,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,MOD,667,826,21,26,"constructor()        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )        Ownable(msg.sender)    ","constructor()                Ownable(msg.sender)    ",stillborn,3529
+m00e9f29c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,MOD,667,826,21,26,"constructor()        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )        Ownable(msg.sender)    ","constructor()        ERC1155(            ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""        )            ",stillborn,3616
+mcaa85039,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,ORFD,2114,2418,64,72,"function uri(uint256 id) public pure override returns (string memory) {        return            string(                abi.encodePacked(                    ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/"",                    id.toString()                )            );    }",,killed,9155
+mb5cc0949,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,RSD,2194,2412,65,71,"return            string(                abi.encodePacked(                    ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/"",                    id.toString()                )            );","/* return            string(                abi.encodePacked(                    ""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/"",                    id.toString()                )            ); */",killed,9507
+mcd5fc30b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,SLR,710,783,23,23,"""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/{id}""","""""",live,13693
+m16289bfd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,SLR,2275,2344,68,68,"""ipfs://bafybeiaan5hx3tfk4vs4qp3l7efg2dyydlt3mjs7egduhlsuwylafnlrrm/""","""""",killed,9896
+md6a97bf5,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,810,820,25,25,msg.sender,tx.origin,live,11762
+m5de50a7e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1242,1252,36,36,msg.sender,tx.origin,live,20534
+m946e4734,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1370,1380,40,40,msg.sender,tx.origin,live,19078
+ma60e8f89,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1419,1429,41,41,msg.sender,tx.origin,live,13187
+m4157d5a9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1567,1577,46,46,msg.sender,tx.origin,live,11395
+m87e8d1ae,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1607,1617,46,46,msg.sender,tx.origin,killed,26153
+mc005f2f5,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1953,1963,58,58,msg.sender,tx.origin,live,27281
+m66671461,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,1998,2008,58,58,msg.sender,tx.origin,killed,14483
+m8eb5b541,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,2944,2954,90,90,msg.sender,tx.origin,live,13466
+m141e1bcd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,3091,3101,95,95,msg.sender,tx.origin,live,12523
+m63c24acc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,TOR,3143,3153,96,96,msg.sender,tx.origin,live,11893
+mc4a0f014,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VUR,1260,1269,36,36,1 minutes,1 seconds,killed,13367
+mb7638871,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VUR,1260,1269,36,36,1 minutes,1 hours,killed,13571
+m8042edc1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VUR,1260,1269,36,36,1 minutes,1 days,killed,14054
+md59d8a66,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VUR,1260,1269,36,36,1 minutes,1 weeks,killed,19042
+m22dd10e1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,305,340,11,11,uint256 public constant TOKEN_0 = 0,uint256 internal constant TOKEN_0 = 0,live,18154
+mc981a35c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,305,340,11,11,uint256 public constant TOKEN_0 = 0,uint256 private constant TOKEN_0 = 0,live,23922
+me5819705,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,346,381,12,12,uint256 public constant TOKEN_1 = 1,uint256 internal constant TOKEN_1 = 1,live,24721
+m1be42a51,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,346,381,12,12,uint256 public constant TOKEN_1 = 1,uint256 private constant TOKEN_1 = 1,live,31208
+m7345261b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,387,422,13,13,uint256 public constant TOKEN_2 = 2,uint256 internal constant TOKEN_2 = 2,live,19833
+mdc0a4913,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,387,422,13,13,uint256 public constant TOKEN_2 = 2,uint256 private constant TOKEN_2 = 2,live,10895
+mf620a496,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,428,463,14,14,uint256 public constant TOKEN_3 = 3,uint256 internal constant TOKEN_3 = 3,live,10975
+m2be96477,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,428,463,14,14,uint256 public constant TOKEN_3 = 3,uint256 private constant TOKEN_3 = 3,live,10157
+mf27e8066,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,469,504,15,15,uint256 public constant TOKEN_4 = 4,uint256 internal constant TOKEN_4 = 4,killed,8968
+m1053abfe,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,469,504,15,15,uint256 public constant TOKEN_4 = 4,uint256 private constant TOKEN_4 = 4,killed,8218
+m819f3ef1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,510,545,16,16,uint256 public constant TOKEN_5 = 5,uint256 internal constant TOKEN_5 = 5,killed,8351
+m4bed09fe,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,510,545,16,16,uint256 public constant TOKEN_5 = 5,uint256 private constant TOKEN_5 = 5,killed,16823
+me7910d9b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,551,586,17,17,uint256 public constant TOKEN_6 = 6,uint256 internal constant TOKEN_6 = 6,killed,9075
+m5f36454d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/ERC1155token.sol,VVR,551,586,17,17,uint256 public constant TOKEN_6 = 6,uint256 private constant TOKEN_6 = 6,killed,8235
+mfa588b62,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BCRD,3080,3085,92,92,break,continue,killed,10720
+m1b9806a7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BCRD,3080,3086,92,92,break,,killed,11834
+m3db77b46,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BLR,2532,2537,78,78,false,true,killed,17020
+m3675212d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BLR,2771,2776,86,86,false,true,killed,16668
+m93eccf5b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BLR,3054,3058,91,91,true,false,killed,12654
+m28f3654d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BLR,3216,3221,97,97,false,true,killed,16157
+m7d5721af,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BLR,3248,3252,99,99,true,false,killed,11804
+md50c0627,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,696,700,25,25," == "," <= ",killed,9559
+m85c4fe8b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,696,700,25,25," == "," >= ",killed,9643
+m6209bbcc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,696,700,25,25," == ","  < ",killed,10827
+mc677b90a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,696,700,25,25," == ","  > ",killed,10392
+m9ecd299c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,696,700,25,25," == "," != ",killed,12786
+m46611633,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1087,1090,34,34," < "," <= ",killed,14848
+mfaf56410,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1087,1090,34,34," < "," >=  ",killed,11029
+m2d6a4292,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1087,1090,34,34," < "," > ",killed,12381
+m0239e016,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1087,1090,34,34," < "," != ",killed,8159
+m61328db5,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1087,1090,34,34," < "," == ",killed,8325
+m74dfadaa,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1168,1172,36,36," == "," <= ",killed,7992
+m01c834e1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1168,1172,36,36," == "," >= ",killed,8487
+me6273f2d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1168,1172,36,36," == ","  < ",killed,9301
+m778be4bf,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1168,1172,36,36," == ","  > ",killed,8732
+mc837f1c0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1168,1172,36,36," == "," != ",killed,9581
+m7127c2de,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1288,1291,41,41," < "," <= ",killed,11454
+m554bca18,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1288,1291,41,41," < "," >=  ",killed,9116
+m1dfbc9cf,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1288,1291,41,41," < "," > ",killed,7488
+maabd4e54,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1288,1291,41,41," < "," != ",killed,7557
+m9086f098,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1288,1291,41,41," < "," == ",killed,7482
+m8a988088,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1643,1647,53,53," == "," <= ",killed,7353
+mabc359d9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1643,1647,53,53," == "," >= ",killed,8173
+m0e357d9f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1643,1647,53,53," == ","  < ",killed,12856
+m99c060d3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1643,1647,53,53," == ","  > ",killed,11045
+m1ed78908,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1643,1647,53,53," == "," != ",killed,11753
+m28446af1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1858,1862,59,59," == "," <= ",killed,9241
+m265c207f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1858,1862,59,59," == "," >= ",killed,11469
+me0e52030,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1858,1862,59,59," == ","  < ",killed,11949
+m2ac61793,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1858,1862,59,59," == ","  > ",killed,9496
+md9639ef6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,1858,1862,59,59," == "," != ",killed,8679
+m8664c431,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2073,2077,65,65," == "," <= ",killed,8557
+m6c511459,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2073,2077,65,65," == "," >= ",killed,8852
+m4436e78b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2073,2077,65,65," == ","  < ",killed,9638
+mc14616fb,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2073,2077,65,65," == ","  > ",killed,9377
+mec5a1e39,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2073,2077,65,65," == "," != ",killed,9353
+m472a0a23,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2288,2292,71,71," == "," <= ",killed,8172
+mced603a2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2288,2292,71,71," == "," >= ",killed,8512
+mc227c84a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2288,2292,71,71," == ","  < ",killed,8561
+m5512e9a2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2288,2292,71,71," == ","  > ",killed,8316
+m96ba254c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2288,2292,71,71," == "," != ",killed,7592
+m8ea6cc81,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2740,2744,86,86," != "," >  ",killed,10643
+m4b181fbc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2740,2744,86,86," != ","  < ",killed,7379
+m595ddd71,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2740,2744,86,86," != "," <= ",killed,8508
+mb81ee795,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2740,2744,86,86," != "," >= ",killed,10637
+m78c4cbd0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2740,2744,86,86," != "," == ",killed,10830
+m4525dea6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2869,2872,88,88," < "," <= ",killed,12390
+mff6243b1,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2869,2872,88,88," < "," >=  ",killed,16032
+m1b41af90,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2869,2872,88,88," < "," > ",killed,10243
+m0c000b57,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2869,2872,88,88," < "," != ",killed,8353
+m51139c7b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2869,2872,88,88," < "," == ",killed,9409
+m6fb94e8a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2928,2931,89,89," < "," <= ",killed,9244
+mff2482fd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2928,2931,89,89," < "," >=  ",killed,8347
+mf9b5a03a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2928,2931,89,89," < "," > ",killed,8709
+m5c5e6433,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2928,2931,89,89," < "," != ",killed,7460
+m3c341e7f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2928,2931,89,89," < "," == ",killed,8742
+mab5d7fd9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3006,3010,90,90," && "," || ",killed,8080
+m14710e52,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2988,2992,90,90," == "," <= ",killed,7797
+mce33f863,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2988,2992,90,90," == "," >= ",killed,7855
+mbd6293ca,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2988,2992,90,90," == ","  < ",killed,7879
+ma4ba37c0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2988,2992,90,90," == ","  > ",killed,8978
+mb9e08ef4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,2988,2992,90,90," == "," != ",killed,10137
+m83c67f4d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3158,3161,96,96," < "," <= ",killed,7769
+m1486a6dc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3158,3161,96,96," < "," >=  ",killed,7534
+m11fdc645,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3158,3161,96,96," < "," > ",killed,7567
+m067015c4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3158,3161,96,96," < "," != ",killed,7759
+mb8807290,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,BOR,3158,3161,96,96," < "," == ",killed,8004
+mbdbc6693,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CCD,353,450,14,16,constructor(address _tokenAddress) {        tokenContract = MyERC1155Token(_tokenAddress);    },,killed,7311
+m5e0b4235,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,1637,1648,53,53,mintId == 3,true,killed,8142
+m9698263c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,1637,1648,53,53,mintId == 3,false,killed,7672
+m9f58a229,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,1852,1863,59,59,mintId == 4,true,killed,7644
+m1af9d8bd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,1852,1863,59,59,mintId == 4,false,killed,7557
+m65f37abf,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2067,2078,65,65,mintId == 5,true,killed,7783
+mcf04c7fd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2067,2078,65,65,mintId == 5,false,killed,8150
+m6888f8d8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2282,2293,71,71,mintId == 6,true,killed,8379
+mff1f2d9e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2282,2293,71,71,mintId == 6,false,killed,8657
+m303a233e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2726,2762,86,86,burnIds.length != requiredIds.length,true,killed,10098
+me60a4f6c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2726,2762,86,86,burnIds.length != requiredIds.length,false,killed,20091
+me96ab60b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2978,3019,90,90,burnIds[i] == requiredIds[j] && !found[j],true,killed,26751
+m3b8615b4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,2978,3019,90,90,burnIds[i] == requiredIds[j] && !found[j],false,killed,17379
+mca623657,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,3198,3207,97,97,!found[i],true,killed,13798
+m508ad0e2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,CSC,3198,3207,97,97,!found[i],false,killed,36296
+m9ffc7dc6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,551,575,20,20,uint256[] memory burnIds,uint256[] storage burnIds,stillborn,6513
+m2ec292dc,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,585,613,21,21,uint256[] memory burnAmounts,uint256[] storage burnAmounts,stillborn,5933
+m034174a3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,1541,1565,50,50,uint256[] memory burnIds,uint256[] storage burnIds,stillborn,6250
+m1327e25f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,1664,1692,54,54,uint256[] memory requiredIds,uint256[] storage requiredIds,stillborn,6378
+m80afe942,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,1879,1907,60,60,uint256[] memory requiredIds,uint256[] storage requiredIds,stillborn,8036
+m297c163c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,2094,2122,66,66,uint256[] memory requiredIds,uint256[] storage requiredIds,stillborn,7509
+m752c8b97,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,2309,2337,72,72,uint256[] memory requiredIds,uint256[] storage requiredIds,stillborn,7307
+m4298e92e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,2616,2640,83,83,uint256[] memory burnIds,uint256[] storage burnIds,stillborn,7868
+mbcc22e2f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,2650,2678,84,84,uint256[] memory requiredIds,uint256[] storage requiredIds,stillborn,7653
+m11e52e75,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,DLR,2786,2805,87,87,bool[] memory found,bool[] storage found,stillborn,7082
+m532bb3f7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,EHC,661,825,24,27,"require(            burnIds.length == burnAmounts.length,            ""Mismatched burn data. Please provide burnAmounts for all burnIDs and vice versa.""        );","/* require(            burnIds.length == burnAmounts.length,            ""Mismatched burn data. Please provide burnAmounts for all burnIDs and vice versa.""        ); */",killed,18057
+m425094b9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,EHC,834,960,28,31,"require(            isValidForge(burnIds, mintId),            ""Invalid forge. Please check forging instructions.""        );","/* require(            isValidForge(burnIds, mintId),            ""Invalid forge. Please check forging instructions.""        ); */",killed,16819
+mf31654d0,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,EHC,1129,1247,35,38,"require(                burnAmounts[i] == burnAmount,                ""All burn amounts must be equal""            );","/* require(                burnAmounts[i] == burnAmount,                ""All burn amounts must be equal""            ); */",killed,18031
+m0bf41c17,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,522,651,19,23,"function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) public ","function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) external ",killed,16073
+mafde47c8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,522,651,19,23,"function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) public ","function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) internal ",killed,18843
+m7c3d6511,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,522,651,19,23,"function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) public ","function forgeToken(        uint256[] memory burnIds,        uint256[] memory burnAmounts,        uint256 mintId    ) private ",killed,22265
+m3cee08dd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,1510,1623,49,52,"function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) public pure returns (bool) ","function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) external pure returns (bool) ",stillborn,5899
+m33587685,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,1510,1623,49,52,"function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) public pure returns (bool) ","function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) internal pure returns (bool) ",killed,18706
+m21f5fe91,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,1510,1623,49,52,"function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) public pure returns (bool) ","function isValidForge(        uint256[] memory burnIds,        uint256 mintId    ) private pure returns (bool) ",killed,17171
+mb37cf439,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,2587,2712,82,85,"function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) public pure returns (bool) ","function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) external pure returns (bool) ",stillborn,6009
+mfcfcc81c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,2587,2712,82,85,"function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) public pure returns (bool) ","function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) internal pure returns (bool) ",killed,13371
+mfe79eb04,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,FVR,2587,2712,82,85,"function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) public pure returns (bool) ","function checkForge(        uint256[] memory burnIds,        uint256[] memory requiredIds    ) private pure returns (bool) ",killed,13356
+m06c67f2a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1054,1055,33,33,0,1,killed,13319
+m186476bd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1083,1084,34,34,1,0,killed,13516
+m52f7e87b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1083,1084,34,34,1,2,killed,14133
+m7d563de3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1284,1285,41,41,0,1,killed,13238
+m8e822f4a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1647,1648,53,53,3,2,killed,12828
+m1ba2b26d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1647,1648,53,53,3,4,killed,13703
+m076d8b92,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1709,1710,54,54,2,1,killed,13346
+m80b9af94,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1709,1710,54,54,2,3,killed,13878
+m77ea60c2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1737,1738,55,55,0,1,killed,12947
+m0c719f3c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1742,1743,55,55,0,1,killed,13531
+mdcabb4f8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1769,1770,56,56,1,0,killed,13425
+mb7141cab,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1769,1770,56,56,1,2,killed,14455
+mca988cca,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1774,1775,56,56,1,0,killed,13892
+m171720ab,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1774,1775,56,56,1,2,killed,13529
+mbcd24764,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1862,1863,59,59,4,3,killed,13406
+mde8ea7e2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1862,1863,59,59,4,5,killed,13238
+m8968abe3,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1924,1925,60,60,2,1,killed,13126
+m338de2f2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1924,1925,60,60,2,3,killed,13239
+m3c46990b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1952,1953,61,61,0,1,killed,16975
+m2e9a715b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1957,1958,61,61,1,0,killed,16486
+ma4db7a92,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1957,1958,61,61,1,2,killed,14197
+m68fde148,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1984,1985,62,62,1,0,killed,13822
+mb2ae2fe7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1984,1985,62,62,1,2,killed,13359
+me3d5d27c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1989,1990,62,62,2,1,killed,14052
+madc50076,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,1989,1990,62,62,2,3,killed,13800
+mf38c5c18,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2077,2078,65,65,5,4,killed,13373
+me4d3579d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2077,2078,65,65,5,6,killed,13271
+m6843e006,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2139,2140,66,66,2,1,killed,14357
+m1570831c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2139,2140,66,66,2,3,killed,13510
+m177e51e9,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2167,2168,67,67,0,1,killed,11934
+m1cfc95ae,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2172,2173,67,67,0,1,killed,11506
+m34560b5a,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2199,2200,68,68,1,0,killed,11875
+m34b6f80d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2199,2200,68,68,1,2,killed,11905
+m7f17bad8,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2204,2205,68,68,2,1,killed,11617
+m6ee9a957,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2204,2205,68,68,2,3,killed,13084
+me75a3de2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2292,2293,71,71,6,5,killed,31265
+m88085158,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2292,2293,71,71,6,7,killed,40067
+m38ed3c0b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2354,2355,72,72,3,2,killed,44222
+m0abebda4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2354,2355,72,72,3,4,killed,34215
+med1e13ef,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2382,2383,73,73,0,1,killed,31164
+m9a43f205,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2387,2388,73,73,0,1,killed,21998
+m196bac6f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2414,2415,74,74,1,0,killed,15849
+m3cd307db,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2414,2415,74,74,1,2,killed,8899
+m871a2b5b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2419,2420,74,74,1,0,killed,8561
+m5ca1f685,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2419,2420,74,74,1,2,killed,9212
+m03f7769b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2446,2447,75,75,2,1,killed,9089
+m3d71a439,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2446,2447,75,75,2,3,killed,8112
+m4326318c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2451,2452,75,75,2,1,killed,9071
+mcb1b019c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2451,2452,75,75,2,3,killed,21550
+mcc0530b7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2865,2866,88,88,0,1,killed,22285
+ma08808fd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,2924,2925,89,89,0,1,killed,12180
+mcb204b6f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,ILR,3154,3155,96,96,0,1,killed,10753
+m6473eb9d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,1086,1108,34,34,i < burnAmounts.length,true,killed,9348
+m1316c917,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,1086,1108,34,34,i < burnAmounts.length,false,killed,12776
+mc52a3fa6,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,1287,1305,41,41,i < burnIds.length,true,killed,16906
+m8fd33d6b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,1287,1305,41,41,i < burnIds.length,false,killed,11467
+m1e54476b,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,2868,2886,88,88,i < burnIds.length,true,killed,17386
+mb2da9f4d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,2868,2886,88,88,i < burnIds.length,false,killed,14024
+mb1fcdaca,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,2927,2949,89,89,j < requiredIds.length,true,killed,11855
+me146963e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,2927,2949,89,89,j < requiredIds.length,false,killed,9321
+ma56877da,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,3157,3173,96,96,i < found.length,true,killed,8315
+md4d2b01d,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,LSC,3157,3173,96,96,i < found.length,false,killed,8860
+m17ebcbde,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,1789,1829,57,57,"return checkForge(burnIds, requiredIds);","/* return checkForge(burnIds, requiredIds); */",killed,9706
+mfbb466d7,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,2004,2044,63,63,"return checkForge(burnIds, requiredIds);","/* return checkForge(burnIds, requiredIds); */",killed,8869
+ma75bca28,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,2219,2259,69,69,"return checkForge(burnIds, requiredIds);","/* return checkForge(burnIds, requiredIds); */",killed,8322
+m061dd138,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,2466,2506,76,76,"return checkForge(burnIds, requiredIds);","/* return checkForge(burnIds, requiredIds); */",killed,8102
+m1cc5c960,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,2525,2538,78,78,return false;,/* return false; */,killed,8588
+m697b9fb2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,2764,2777,86,86,return false;,/* return false; */,stillborn,3478
+mcdad2808,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,3209,3222,97,97,return false;,/* return false; */,stillborn,2792
+mfbbb838e,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,RSD,3241,3253,99,99,return true;,/* return true; */,killed,7824
+m9ff58008,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,TOR,1345,1355,42,42,msg.sender,tx.origin,killed,8064
+m848792c4,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,TOR,1429,1439,45,45,msg.sender,tx.origin,killed,8220
+md0c78c4f,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,1111,1113,34,34,++,--,killed,8133
+m54a55dad,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,1111,1113,34,34,++," ",killed,8084
+m41b1704c,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,1308,1310,41,41,++,--,killed,8236
+m557f4cd2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,1308,1310,41,41,++," ",killed,8901
+m0b828b87,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,2889,2891,88,88,++,--,killed,9311
+m8653d106,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,2889,2891,88,88,++," ",killed,7471
+medaa7d29,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,2952,2954,89,89,++,--,killed,7988
+m6aebe1d2,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,2952,2954,89,89,++," ",killed,9797
+m3f0b1825,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,3010,3018,90,90,!found[j," found[j",killed,8163
+mc101d1cd,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,3176,3178,96,96,++,--,killed,8653
+med994c25,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,3176,3178,96,96,++," ",killed,7508
+m494be5db,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,UORD,3198,3206,97,97,!found[i," found[i",killed,7391
+mf6d58f20,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,VVR,112,158,6,6,MyERC1155Token private immutable tokenContract,MyERC1155Token public immutable tokenContract,killed,8387
+m2fa54f43,/Users/dhruvvarshney/Desktop/metana/metana-bootcamp/module-3/contracts/forging.sol,VVR,112,158,6,6,MyERC1155Token private immutable tokenContract,MyERC1155Token internal immutable tokenContract,killed,7579
