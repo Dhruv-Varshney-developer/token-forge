@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAccount, useWriteContract } from 'wagmi';
+import {  useAccount, useWriteContract } from 'wagmi';
 import { FORGING_ADDRESS, forgingABI } from '../constants/forging';
 
 const ForgingInterface = () => {
@@ -8,12 +8,11 @@ const ForgingInterface = () => {
   const [burnAmounts, setBurnAmounts] = useState(['', '', '']); // Corresponding burn amounts
   const [mintId, setMintId] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+ 
 
    // Use the useContractWrite hook to mint tokens
-   const { data: hash,
-    writeContract ,isLoading: isMinting } = useWriteContract();
+   const { 
+    writeContract , error } = useWriteContract();
   // Function to handle forging
   const handleForge = async () => {
     // Filter out empty burn IDs and corresponding amounts
@@ -30,17 +29,11 @@ const ForgingInterface = () => {
         functionName: 'forgeToken',
         args: [burnIdsNumbers, burnAmountsNumbers, Number(mintId)],
         account: address,
-        onError: (error) => {
-          setErrorMessage(error.message);
-        },
-        onSuccess: (result) => {
-          setErrorMessage('');
-          setSuccessMessage('Forging successful!');
-          console.log('Forge result:', result);
-        },
+        
+        
       });
-    } catch (error) {
-      console.error('Forging failed:', error);
+    } catch (e) {
+      console.error('Forging failed:', e);
       // Error message is already set in onError callback
     } finally {
       setIsLoading(false);
@@ -132,13 +125,11 @@ const ForgingInterface = () => {
             {isLoading ? 'Forging...' : 'Forge Token'}
           </button>
         </div>
-        {/* Display error and success messages below the forge button */}
-        {errorMessage && (
-          <div className="mt-4 text-red-600 text-center">{errorMessage}</div>
-        )}
-        {successMessage && (
-          <div className="mt-4 text-green-600 text-center">{successMessage}</div>
-        )}
+        {/* Display error messages below the forge button */}
+        {error && (
+        <div>Error: {(error).shortMessage || error.message}</div>
+      )}
+        
       </div>
       <div className="mt-4 text-center">
         <a href="https://testnets.opensea.io/assets/sepolia/0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">

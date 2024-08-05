@@ -7,11 +7,10 @@ const BurningInterface = () => {
   const [tokenId, setTokenId] = useState('');
   const [amount, setAmount] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+  
 
-  const { data: hash,
-    writeContract ,isLoading: isMinting } = useWriteContract();
+  const { 
+    writeContract , error } = useWriteContract();
 
   const handleBurn = async () => {
     if (tokenId === '' || amount === '') return;
@@ -23,18 +22,11 @@ const BurningInterface = () => {
         abi: ERC1155Token_ABI,
         functionName: 'burn',
         args: [address, Number(tokenId), Number(amount)],
-        onError: (error) => {
-          setErrorMessage(error.message);
-        },
-        onSuccess: (result) => {
-          setErrorMessage('');
-          setSuccessMessage('Burning successful!');
-          console.log('Burn result:', result);
-        },
+        
       });
     } catch (error) {
       console.error('Burning failed:', error);
-      setErrorMessage(error.message);
+      
     } finally {
       setIsLoading(false);
     }
@@ -77,12 +69,10 @@ const BurningInterface = () => {
             {isLoading ? 'Burning...' : 'Burn Token'}
           </button>
         </div>
-        {errorMessage && (
-          <div className="mt-4 text-red-600 text-center">{errorMessage}</div>
-        )}
-        {successMessage && (
-          <div className="mt-4 text-green-600 text-center">{successMessage}</div>
-        )}
+        {/* Display error messages below the forge button */}
+        {error && (
+        <div>Error: {(error).shortMessage || error.message}</div>
+      )}
       </div>
       <div className="mt-4 text-center">
         <a href="https://testnets.opensea.io/assets/sepolia/0x3324A8364aa9dc826C5a9B7Cb26279A87000b0c3" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">

@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-import { useAccount, useReadContract, useWriteContract } from 'wagmi';
+import {   useWriteContract } from 'wagmi';
 import { ERC1155Token_ABI, ERC1155_ADDRESS } from '../constants/ERC1155';
 
 const TradingInterface = () => {
-  const { address } = useAccount();
+  
   const [giveTokenId, setGiveTokenId] = useState('');
   const [giveAmount, setGiveAmount] = useState('');
   const [receiveTokenId, setReceiveTokenId] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
 
-  const { data: hash,
-    writeContract ,isLoading: isMinting } = useWriteContract();
+
+  const {
+    writeContract, error } = useWriteContract();
   const handleTrade = async () => {
     if (giveTokenId === '' || giveAmount === '' || receiveTokenId === '') return;
 
@@ -23,18 +22,11 @@ const TradingInterface = () => {
         abi: ERC1155Token_ABI,
         functionName: 'tradeToken',
         args: [Number(giveTokenId), Number(giveAmount), Number(receiveTokenId)],
-        onError: (error) => {
-          setErrorMessage(error.message);
-        },
-        onSuccess: (result) => {
-          setErrorMessage('');
-          setSuccessMessage('Trade successful!');
-          console.log('Trade result:', result);
-        },
+
       });
-    } catch (error) {
-      console.error('Trading failed:', error);
-      setErrorMessage(error.message);
+    } catch (e) {
+      console.error('Trading failed:', e);
+
     } finally {
       setIsLoading(false);
     }
@@ -88,11 +80,9 @@ const TradingInterface = () => {
             {isLoading ? 'Trading...' : 'Trade Token'}
           </button>
         </div>
-        {errorMessage && (
-          <div className="mt-4 text-red-600 text-center">{errorMessage}</div>
-        )}
-        {successMessage && (
-          <div className="mt-4 text-green-600 text-center">{successMessage}</div>
+        {/* Display error messages below the forge button */}
+        {error && (
+          <div>Error: {(error).shortMessage || error.message}</div>
         )}
       </div>
       <div className="mt-4 text-center">

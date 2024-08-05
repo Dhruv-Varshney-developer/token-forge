@@ -8,8 +8,8 @@ const MintingInterface = () => {
   const [amount, setAmount] = useState('');
   const [balance, setBalance] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  const [successMessage, setSuccessMessage] = useState('');
+  
+
 
   // Use the useReadContract hook to fetch the balance
   const { data: balanceData, isLoading: isBalanceLoading } = useReadContract({
@@ -21,18 +21,11 @@ const MintingInterface = () => {
   });
 
   // Use the useContractWrite hook to mint tokens
-  const { data: hash,
-    writeContract ,isLoading: isMinting } = useWriteContract();
+  const {
+    writeContract, isLoading: isMinting, error } = useWriteContract();
 
   const handleMint = async () => {
     if (tokenId === '' || amount === '') return;
-
-    // Check if the token ID is valid for public minting
-    const id = Number(tokenId);
-    if (id < 0 || id > 2) {
-      setErrorMessage("Invalid token ID for public minting");
-      return;
-    }
 
     setIsLoading(true);
     try {
@@ -41,16 +34,7 @@ const MintingInterface = () => {
         abi: ERC1155Token_ABI,
         functionName: 'mint',
         args: [Number(tokenId), Number(amount)],
-        onError: (error) => {
-          // Capture any error from the minting process
-          setErrorMessage(error.message);
-        },
-        onSuccess: (result) => {
-          // Reset messages and show success message
-          setErrorMessage('');
-          setSuccessMessage('Minting successful!');
-          console.log('Mint result:', result);
-        },
+
       }) // Wait for the transaction to be confirmed
     } catch (error) {
       console.error('Minting failed:', error);
@@ -114,12 +98,9 @@ const MintingInterface = () => {
             {isLoading || isMinting ? 'Minting...' : 'Mint Token'}
           </button>
         </div>
-        {/* Display error and success messages below the mint button */}
-        {errorMessage && (
-          <div className="mt-4 text-red-600 text-center">{errorMessage}</div>
-        )}
-        {successMessage && (
-          <div className="mt-4 text-green-600 text-center">{successMessage}</div>
+        {/* Display error messages below the forge button */}
+        {error && (
+          <div>Error: {(error).shortMessage || error.message}</div>
         )}
       </div>
       <div className="mt-4 text-center">
